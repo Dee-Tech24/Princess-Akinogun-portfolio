@@ -9,7 +9,7 @@ const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-24 mb-24">
           <div className="md:col-span-1 space-y-12">
             <h2 className="font-serif text-5xl leading-[0.85] tracking-tighter">
-              ET<span className="text-terracotta">.</span>
+              PA<span className="text-terracotta">.</span>
             </h2>
             <div className="space-y-6">
               <p className="text-[10px] uppercase tracking-[0.3em] text-stone-400 font-bold">Navigation</p>
@@ -26,11 +26,15 @@ const Footer: React.FC = () => {
             <div className="space-y-6">
               <p className="text-[10px] uppercase tracking-[0.3em] text-stone-400 font-bold">Correspondence</p>
               <p className="font-journal text-xl leading-relaxed text-stone-600">
-                For urgent matters or literary representation, please reach out via <span className="text-terracotta underline cursor-pointer">office@evelyn-thorne.com</span>
+                For enquiries or collaborations, please reach out via <a href="mailto:princessakinogun@gmail.com" className="text-terracotta underline">princessakinogun@gmail.com</a>
               </p>
+              <p className="font-journal text-lg leading-relaxed text-stone-600">
+                WhatsApp / Phone: <a href="https://wa.me/2349067750825" className="text-terracotta underline">+234 906 775 0825</a>
+              </p>
+              <p className="font-journal text-lg leading-relaxed text-stone-600">Location: Lagos, Nigeria</p>
             </div>
             <div className="flex space-x-8">
-              <a href="#" className="text-[10px] uppercase tracking-[0.2em] font-black border-b border-stone-200 pb-1">Instagram</a>
+              <a href="https://instagram.com/princessakinogun" target="_blank" rel="noreferrer" className="text-[10px] uppercase tracking-[0.2em] font-black border-b border-stone-200 pb-1">@princessakinogun</a>
               <a href="#" className="text-[10px] uppercase tracking-[0.2em] font-black border-b border-stone-200 pb-1">LinkedIn</a>
             </div>
           </div>
